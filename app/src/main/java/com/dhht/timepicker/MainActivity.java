@@ -5,17 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.dhht.library.CalendarDay;
-import com.dhht.library.MaterialCalendarView;
-import com.dhht.library.OnDateSelectedListener;
-
-import java.time.format.DateTimeFormatter;
-
+/**
+ * @author dhht
+ */
 public class MainActivity extends AppCompatActivity {
 
-
     MaterialCalendarView mCalendarView;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
